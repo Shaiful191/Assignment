@@ -17,6 +17,9 @@ class Survey extends StatelessWidget {
         body: SingleChildScrollView(
           child: Column(
             children: [
+              SizedBox(
+                height: 40,
+              ),
               Card(
                 child: Center(
                   child: Column(children: [
@@ -24,7 +27,7 @@ class Survey extends StatelessWidget {
                       backgroundColor: Colors.blueAccent,
                       child: Icon(
                         Icons.add,
-                        size: 80,
+                        size: 30,
                         color: Colors.white,
                       ),
                     ),
@@ -58,7 +61,7 @@ class Survey extends StatelessWidget {
                       backgroundColor: Colors.blueAccent,
                       child: Icon(
                         Icons.scanner,
-                        size: 80,
+                        size: 30,
                         color: Colors.white,
                       ),
                     ),
