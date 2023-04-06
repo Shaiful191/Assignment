@@ -346,6 +346,15 @@ class HomePage extends StatelessWidget {
                                                   child: SizedBox(
                                                     width: 83 * fem,
                                                     height: 17 * fem,
+
+                                                    child:GestureDetector(
+                                                onTap: () {
+                                                  Navigator.push(
+                                                      context,
+                                                      MaterialPageRoute(
+                                                          builder: (context) =>
+                                                              Product()));
+                                                },
                                                     child: Text(
                                                       'Product Brief',
                                                       style: SafeGoogleFont(
@@ -359,6 +368,7 @@ class HomePage extends StatelessWidget {
                                                             Color(0xffffffff),
                                                       ),
                                                     ),
+                                                  ),
                                                   ),
                                                 ),
                                               ),
